@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-stone-100: hsl(30, 54%, 90%);
+    --color-stone-150: hsl(30, 18%, 87%);
+    --color-stone-600: hsl(30, 10%, 34%);
+    --color-stone-900: hsl(24, 5%, 18%);
+    --color-brown-800: hsl(14, 45%, 36%);
+    --color-rose-800: hsl(332, 51%, 32%);
+    --color-rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--color-stone-150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+.main {
+    background-color: var(--color-white);
+    border-radius: 20px;
+    max-width: 650px;
+    width: 100%;
+    padding: 30px;
+
+
+}
+
+.main-image {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.main-title {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--color-stone-900);
+    margin: 20px 0;
+}
+
+.main-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-stone-600);
+    margin-bottom: 20px;
+}
+
+.rose-card {
+    background-color: var(--color-rose-50);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.rose-card h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-rose-800);
+    margin-bottom: 10px;
+}
+
+.rose-card ul {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-weight: 300;
+}
+
+.rose-card ul li span {
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.border-bottom {
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--color-stone-150);
+}
+
+.section-titile {
+    font-size: 30px;
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 500;
+    color: var(--color-brown-800);
+    margin-bottom: 20px;
+}
+
+.Ingredients ul {
+    list-style: square;
+    color: var(--color-brown-800);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.item-description {
+    color: var(--color-stone-600);
+    font-weight: 400;
+}
+
+.paddings {
+    padding: 20px;
+}
+
+.Instructions ol {
+    list-style: decimal;
+    color: var(--color-brown-800);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.item-title {
+    color: var(--color-brown-800);
+
+}
+
+.Instructions ol li {
+    padding-left: 10px;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    font-weight: 300;
+}
+
+.table p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--color-stone-150);
+}
+
+.bold-item {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-rose-800);
+}
